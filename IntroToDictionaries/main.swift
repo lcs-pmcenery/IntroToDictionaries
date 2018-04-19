@@ -37,8 +37,9 @@ for character in phrase {
 print(frequency)
 
 // How many times did a few different characters occur?
-print(frequency["a"])
-print(frequency[" "])
-print(frequency["-"])
-print(frequency["e"])
-print(frequency["E"])
+//print(frequency["a"])
+//print(frequency[" "])
+//print(frequency["-"])
+//print(frequency["e"])
+//print(frequency["E"])
+
