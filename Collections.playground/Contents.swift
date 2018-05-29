@@ -27,7 +27,7 @@ import Foundation
  Try that code now.
  */
 // Create the emptry shopping list
-
+var goodItems : [String] = []
 
 
 /*:
@@ -42,14 +42,15 @@ import Foundation
  Try that code now.
  */
 // Add the first item to the shopping list
-
+goodItems.append("yuh")
 
 /*:
  Now add the remaining four items to the shopping list from the example shown above.
  */
 // Add the remaining items to the shopping list
-
-
+goodItems.append("Aye man you got a gold scar")
+goodItems.append("Fruit smoothie berry blast")
+goodItems.append("Pizza card")
 /*:
  #### Creating a fixed length array
  
@@ -62,7 +63,7 @@ import Foundation
  Try this now.
  */
 // Create an array with ten values defaulting to zero
-
+var tenIntergers = Array (repeating: 0, count: 10)
 
 /*:
  
@@ -73,8 +74,8 @@ import Foundation
  
  */
 // Complete the exercises here
-
-
+var fifteenDoubles = Array(repeating: 50.0, count: 15)
+var five
 
 /*:
  ## Intro to Collections
